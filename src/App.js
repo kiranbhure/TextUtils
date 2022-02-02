@@ -47,11 +47,11 @@ function App() {
   <Alert alert={alert} />
   <div className='container my-3' >
   {/* <Switch>
-      <Route exact path="/about"> */}
-        {/* <About /> */}
-      {/* </Route>
+      <Route exact path="/about">
+        <About mode={mode} />
+      </Route>
       <Route exact path="/"> */}
-        <TextForms showAlert={showAlert} hedding="Enter The Text To Analyze" mode={mode}/>  
+        <TextForms showAlert={showAlert} hedding="Try TextUtils - Word Counter | Text Counter | Remove Extra Spaces" mode={mode}/>  
       {/* </Route>
   </Switch> */}
   </div>
