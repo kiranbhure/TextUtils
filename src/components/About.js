@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function About(props) {
     // const [myStyle, setMyStyle] = useState({
@@ -56,4 +56,4 @@ export default function About(props) {
             </div>
         </div>
     )
-    }
+};

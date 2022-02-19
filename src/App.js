@@ -48,7 +48,7 @@ function App() {
   <div className='container my-3' >
   {/* <Switch>
       <Route exact path="/about">
-        <About mode={mode} />
+        <About mode={mode}/>
       </Route>
       <Route exact path="/"> */}
         <TextForms showAlert={showAlert} hedding="Try TextUtils - Word Counter | Text Counter | Remove Extra Spaces" mode={mode}/>  
